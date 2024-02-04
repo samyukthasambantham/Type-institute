@@ -1,0 +1,51 @@
+.middle {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("machine.jfif");
+    z-index:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display:flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+   
+
+    
+}
+.heading {
+    text-align: center;
+    font-size: 2rem;
+}
+.middle button {
+    text-align: center;
+    margin: 5rem 40rem;
+    color: red;
+
+}
+.middle button:active,
+.middle button:hover {
+    background-color: black;
+}
+.overall
+{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:center;
+    align-content:center;
+  }
+.course
+{ 
+    padding:80px;
+   text-align: center;
+  margin-left:none;
+}
+.course img
+{
+    border-radius: 100px;
+}
+div nav
+{
+    margin-top: 3rem;
+}
+
